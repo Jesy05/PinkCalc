@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set page config for a cute title and icon
-st.set_page_config(page_title="Cute Calculator", page_icon="🧮")
+st.set_page_config(page_title="Calculator", page_icon="🧮")
 
 # Custom CSS for a pink theme
 st.markdown("""
@@ -21,7 +21,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Calculator layout
-st.title("Cute Pink Calculator 🧮")
+st.title("Calculator 🧮")
 
 # Input fields
 num1 = st.number_input("Enter first number", value=0.0)
