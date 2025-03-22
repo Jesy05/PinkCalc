@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set page config para el titulo decorado 
-st.set_page_config(page_title="Calculator", page_icon="🧮")
+st.set_page_config(page_title="Calculadora<3", page_icon="🧮")
 
 # Custom CSS (definir y cohesionar la presentación) for a pink theme
 st.markdown("""
