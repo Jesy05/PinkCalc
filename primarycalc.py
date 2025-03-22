@@ -1,9 +1,9 @@
 import streamlit as st
 
-# Set page config for a cute title and icon
+# Set page config para el titulo decorado 
 st.set_page_config(page_title="Calculator", page_icon="🧮")
 
-# Custom CSS for a pink theme
+# Custom CSS (definir y cohesionar la presentación) for a pink theme
 st.markdown("""
 <style>
 .stButton>button {
@@ -28,7 +28,7 @@ st.markdown("""
 # Calculator layout
 st.title("Calculator 🧮")
 
-# Initialize session state to store the current input
+# Initializa sesion para almacenar el current input
 if 'calc_input' not in st.session_state:
     st.session_state.calc_input = "0"
 
