@@ -26,7 +26,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Calculator layout
-st.title("Calculator 🧮")
+st.title("Calculadora<3 🧮")
 
 # Initializa sesion para almacenar el current input
 if 'calc_input' not in st.session_state:
